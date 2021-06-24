@@ -1,5 +1,7 @@
 # Project 3: From Portland to Portland
 
+* [Link to GitHub Pages](https://wherestoto.github.io/web_project_3/)
+
 ### Overview
 * Intro
 * Figma
