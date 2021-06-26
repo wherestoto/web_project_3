@@ -1,0 +1,37 @@
+.cover {
+  max-width: 1184px;
+  min-height: 740px;
+  margin: 92px 48px 0;
+  background-image: url(../../images/cover-route-66.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.cover__title {
+  color: #FFFDFD;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  margin: 0 auto;
+  max-width: 656px;
+}
+
+.cover__subtitle {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFF; 
+  margin: 32px 0 0;
+  max-width: 320px;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    margin: 92px 0 0;
+  }
+}

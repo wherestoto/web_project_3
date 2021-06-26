@@ -1,13 +1,13 @@
 .header {
   max-width: 984px;
-  margin: 0 auto;
-  padding-top: 34px;
+  margin: 34px 148px 58px;
 }
 
-.header__nav {
+.header__nav-bar {
   max-height: 44px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .header__list {
@@ -25,5 +25,19 @@
 .header__lang-link {
   margin: 0;
   text-decoration: none;
-  color: #FFF;
+  color: #FFFFFF;
+  font-size: 24px;
+  line-height: 1.17;
+  font-weight: 400;
+  text-align: right;
+}
+
+.header__list-item_active {
+  border-bottom: 2px solid #FFFFFF;
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    margin: 34px 48px 58px;
+  }
 }
