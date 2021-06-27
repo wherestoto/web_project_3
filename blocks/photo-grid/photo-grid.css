@@ -4,19 +4,22 @@
 }
 
 .photo-grid__list {
-  min-height: 671px;
+  max-height: 671px;
   list-style: none;
   margin: 0 auto;
   padding: 0;
-  /* display: grid;
-  grid-template-columns: repeat(4, 284px);
-  grid-template-rows: repeat(3, 213px);
-  gap: 16px; */
-  display: flex;
+  
+  /* grid test */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 16px;
+  
+  /* flexbox test */
+  /* display: flex;
   justify-content: space-between;
   align-content: space-between;
-  flex-wrap: wrap;
-
+  flex-wrap: wrap; */
 }
 
 .photo-grid__item {
