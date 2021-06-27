@@ -16,9 +16,10 @@
 
 .places__item {
   max-width: 984px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 48px 40px;
   margin-bottom: 80px;
 }
 
@@ -26,26 +27,24 @@
   font-size: 72px;
   font-weight: 900;
   line-height: 1.06;
-  margin: 0 0 48px;
+  margin: 0;
   max-width: 460px;
 }
 
 .places__website {
-  min-width: 456px;
-  max-height: 46px;
-  margin: 0 0 48px;
-  margin-left: 40px;
+  max-width: 456px;
+  margin: 0;
+  align-self: flex-end;
 }
 
 .places__image {
-  max-width: 460px;
+  width: 100%;
   object-fit: cover;
 }
 
 .places__paragraph-block {
   max-width: 484px;
   margin: 0;
-  margin-left: 40px;
 }
 
 .places__paragraph {
