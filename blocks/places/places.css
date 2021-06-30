@@ -17,7 +17,7 @@
 .places__item {
   max-width: 984px;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, auto);
   grid-template-rows: repeat(2, auto);
   gap: 48px 40px;
   margin-bottom: 80px;
@@ -33,35 +33,18 @@
 
 .places__website {
   max-width: 456px;
+  max-height: 46px;
   margin: 0;
   align-self: flex-end;
 }
 
-.places__image {
-  width: 100%;
-  object-fit: cover;
-}
-
-.places__paragraph-block {
-  max-width: 484px;
-  margin: 0;
-}
-
-.places__paragraph {
-  margin: 0 0 25px;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 1.63;
-}
-
 .places__url-heading {
-  text-align: start;
   margin: 0 0 4px;
   border: 0;
   color: #AAAAAA;
   font-size: 12px;
   font-weight: 400;
-  line-height: 0.87;
+  line-height: 1.7;
   letter-spacing: 0.2em;
 }
 
@@ -70,9 +53,28 @@
   color: #FFFFFF;
   font-size: 18px;
   font-weight: 400;
-  line-height: 1.01;
+  line-height: 1.22;
   vertical-align: top;
+  text-decoration: none;
+  border-bottom: 1px solid #FFFFFF;
 }
+
+.places__image {
+  max-width: 460px;
+  object-fit: cover;
+}  
+
+.places__paragraph-block {
+  max-width: 484px;
+  margin: 0;
+}  
+
+.places__paragraph {
+  margin: 0 0 25px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.63;
+}  
 
 @media screen and (max-width: 1024px) {
   .places {
