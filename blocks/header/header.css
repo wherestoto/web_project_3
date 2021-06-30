@@ -1,6 +1,7 @@
 .header {
   max-width: 984px;
-  margin: 34px 148px 58px;
+  margin: 0 148px 58px;
+  padding-top: 34px;
 }
 
 .header__nav-bar {
