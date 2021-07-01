@@ -14,6 +14,11 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  text-decoration: none;
+}
+
+.cover__overlay:hover {
+  background-color: rgba(42, 44, 47, .8);
 }
 
 .cover__title {

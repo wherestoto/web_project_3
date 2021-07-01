@@ -59,6 +59,10 @@
   border-bottom: 1px solid #FFFFFF;
 }
 
+.places__link:hover {
+  opacity: 0.8;
+}
+
 .places__image {
   max-width: 460px;
   object-fit: cover;
