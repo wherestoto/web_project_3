@@ -1,18 +1,13 @@
-@import url(./__blocks/footer__blocks.css);
-@import url(./__list/footer__list.css);
-@import url(./__list-item/footer__list-item.css);
-@import url(./__link/footer__link.css);
-@import url(./__author/footer__author.css);
-
 .footer {
   max-width: 1184px;
   margin: 92px 48px 24px;
+  display: flex;
+  justify-content: space-between;
 }
 
 @media screen and (max-width: 1024px) {
   .footer {
     max-width: 928px;
-    margin: 92px 48px 24px;
   }
 }
 
@@ -26,13 +21,7 @@
 @media screen and (max-width: 425px) {
   .footer {
     max-width: 255px;
-    margin: 64px 20px 24px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .footer {
-    max-width: 165px;
     margin: 64px 16px 24px;
+    flex-direction: column;
   }
 }

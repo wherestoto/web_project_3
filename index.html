@@ -10,26 +10,22 @@
 <body class="page">
   <div class="page__wrapper">
     <header class="header">
-      <nav class="header__nav-bar">
-        <div class="header__logo">
-          <img class="header__logo-img" src="images/logo.svg" alt="The USA Logo">
-        </div>
-        <ul class="header__list">
-          <li class="header__list-item header__list-item_active">
-            <a class="header__lang-link" href="#">En</a>
-          </li>
-          <li class="header__list-item">
-            <a class="header__lang-link" href="#">Es</a>
-          </li>
-        </ul>
-      </nav>
+      <img class="header__logo" src="images/logo.svg" alt="The USA Logo">
+      <ul class="header__list">
+        <li class="header__list-item header__list-item_active">
+          <a class="header__lang-link" href="#">En</a>
+        </li>
+        <li class="header__list-item">
+          <a class="header__lang-link" href="#">Es</a>
+        </li>
+      </ul>
     </header>
     <main class="main">
       <section class="lead">
         <h1 class="lead__title">From Portland to Portland</h1>
         <p class="lead__subtitle">An epic bicycle journey from Portland, ME. to Portland, OR</p>
         <img class="lead__image" src="images/lead-mountains.jpg" alt="Portland Mountains">
-        <p class="lead__caption">Your journey starts here</p>
+        <figcaption class="lead__caption">Your journey starts here</figcaption>
       </section>
       <section class="intro">
         <h2 class="intro__title">Know the country you live in a little better</h2>
@@ -96,7 +92,7 @@
             <h2 class="places__title">Maine</h2>
             <div class="places__website">
               <h3 class="places__url-heading">URL</h3>
-              <a class="places__link" href="https://global.llbean.com/shop/L.L.Bean-Continental-Rucksack/122952.html?bc=50-816&csp=f&feat=816-GN1">global.llbean.com</a>
+              <a class="places__link" href="https://global.llbean.com/shop/L.L.Bean-Continental-Rucksack/122952.html?bc=50-816&csp=f&feat=816-GN1" target = "_blank">global.llbean.com</a>
             </div>
             <img class="places__image" src="images/place-maine.jpg" alt="Maine Lighthouse Rocky Coast">
             <div class="places__paragraph-block">
@@ -109,7 +105,7 @@
             <h2 class="places__title">New Hampshire</h2>
             <div class="places__website">
               <h3 class="places__url-heading">URL</h3>
-              <a class="places__link" href="https://www.timberland.com/timberlandpro.html">timberland.com</a>
+              <a class="places__link" href="https://www.timberland.com/timberlandpro.html" target = "_blank">timberland.com</a>
             </div>
             <img class="places__image" src="images/place-new-hampshire.jpg" alt="New Hampshire Valley Road">
             <div class="places__paragraph-block">
@@ -122,7 +118,7 @@
             <h2 class="places__title">New York</h2>
             <div class="places__website">
               <h3 class="places__url-heading">URL</h3>
-              <a class="places__link" href="https://ge.com/about-us">ge.com</a>
+              <a class="places__link" href="https://ge.com/about-us" target = "_blank">ge.com</a>
             </div>
             <img class="places__image" src="images/place-new-york.jpg" alt="New York City Road">
             <div class="places__paragraph-block">
@@ -134,7 +130,7 @@
             <h2 class="places__title">Erie, PA</h2>
             <div class="places__website">
               <h3 class="places__url-heading">URL</h3>
-              <a class="places__link" href="https://fws.gov/refuge/erie">fws.gov</a>
+              <a class="places__link" href="https://fws.gov/refuge/erie" target = "_blank">fws.gov</a>
             </div>
             <img class="places__image" src="images/place-pennsylvania.jpg" alt="Pennsylvania Erie">
             <div class="places__paragraph-block">
@@ -147,7 +143,7 @@
             <h2 class="places__title">Ohio</h2>
             <div class="places__website">
               <h3 class="places__url-heading">URL</h3>
-              <a class="places__link" href="https://www.cedarpoint.com">cedarpoint.com</a>
+              <a class="places__link" href="https://www.cedarpoint.com" target = "_blank">cedarpoint.com</a>
             </div>
             <img class="places__image" src="images/place-ohio.jpg" alt="Windmill">
             <div class="places__paragraph-block">
@@ -158,25 +154,27 @@
         </ul>
       </section>
       <section class="cover">
-          <a class="cover__overlay" href="https://www.nps.gov/subjects/travelroute66/index.htm">
+          <a class="cover__overlay" href="https://www.nps.gov/subjects/travelroute66/index.htm" target = "_blank">
             <h2 class="cover__title">Historic Route 66</h2>
             <p class="cover__subtitle">The Main Street of America from Santa Monica, Cal. to Chicago, Ill.</p>
           </a>
       </section>
     </main>
     <footer class="footer">
-      <div class="footer__blocks">
-        <nav class="footer__block">
-          <ul class="footer__list">
-            <li class="footer__list-item"><a class="footer__link" href="https://yandex.com/maps">Maps</a></li>
-            <li class="footer__list-item"><a class="footer__link" href="https://yandex.com/weather/moscow">Weather</a></li>
-            <li class="footer__list-item"><a class="footer__link" href="https://calendar.yandex.ru">Calendar</a></li>
-          </ul>
-        </nav>
-        <div class="footer__block">
-          <p class="footer__author">&#169; 2021. Yury Choe</p>
-        </div>
-      </div>
+      <nav class="footer__block">
+        <ul class="footer__list">
+          <li class="footer__list-item">
+            <a class="footer__link" href="https://yandex.com/maps" target = "_blank">Maps</a>
+          </li>
+          <li class="footer__list-item">
+            <a class="footer__link" href="https://yandex.com/weather/moscow" target = "_blank">Weather</a>
+          </li>
+          <li class="footer__list-item">
+            <a class="footer__link" href="https://calendar.yandex.ru" target = "_blank">Calendar</a>
+          </li>
+        </ul>
+      </nav>
+      <p class="footer__author">&#169; 2021. Yury Choe</p>
     </footer>
   </div>
 </body>

@@ -1,15 +1,10 @@
-@import url(./__nav-bar/header__nav-bar.css);
-@import url(./__logo/header__logo.css);
-@import url(./__logo-img/header__logo-img.css);
-@import url(./__lang-link/header__lang-link.css);
-@import url(./__list/header__list.css);
-@import url(./__list-item/header__list-item.css);
-@import url(./__list-item_active/header__list-item_active.css);
-
 .header {
   max-width: 984px;
   margin: 0 148px 58px;
   padding-top: 34px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 @media screen and (max-width: 1024px) {

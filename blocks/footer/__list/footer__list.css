@@ -9,7 +9,6 @@
 
 @media screen and (max-width: 425px) {
   .footer__list {
-    list-style: none;
     margin-bottom: 48px;
     flex-direction: column;
   }
