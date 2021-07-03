@@ -1,0 +1,13 @@
+.footer__blocks {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+@media screen and (max-width: 425px) {
+  .footer__blocks {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+}

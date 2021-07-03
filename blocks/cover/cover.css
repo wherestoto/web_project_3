@@ -1,50 +1,16 @@
+@import url(./__overlay/cover__overlay.css);
+@import url(./__title/cover__title.css);
+@import url(./__subtitle/cover__subtitle.css);
+
 .cover {
   margin: 92px 48px 0;
   max-width: 1184px;
   background: url("../../images/cover-route-66.jpg") no-repeat center / cover;
 }
 
-.cover__overlay {
-  min-height: 740px;
-  background-color: rgba(42, 44, 47, .3);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  text-decoration: none;
-}
-
-.cover__overlay:hover {
-  background-color: rgba(42, 44, 47, .8);
-}
-
-.cover__title {
-  color: #FFFDFD;
-  font-weight: 900;
-  font-size: 72px;
-  line-height: 1.06;
-  margin: 0 auto;
-  max-width: 656px;
-  text-align: center;
-}
-
-.cover__subtitle {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 1.22;
-  color: #FFFFFF; 
-  margin: 32px auto 0;
-  max-width: 320px;
-  text-align: center;
-}
-
 @media screen and (max-width: 1024px) {
   .cover {
     margin: 92px 0 0;
-  }
-
-  .cover__overlay {
-    min-height: 640px;
   }
 }
 
@@ -52,39 +18,10 @@
   .cover {
     margin: 89px 0 0;
   }
-
-  .cover__overlay {
-    min-height: 480px;
-  }
 }
 
 @media screen and (max-width: 425px) {
   .cover {
     margin: 64px 0 0;
-  }
-
-  .cover__overlay {
-    min-height: 265px;
-  }
-
-  .cover__title {
-    color: #FFFFFF;
-    font-size: 32px;
-    line-height: 1.09;
-    margin: 0 auto;
-    max-width: 288px;
-  }
-
-  .cover__subtitle {
-    font-size: 14px;
-    line-height: 1.14;
-    margin: 16px auto 0;
-    max-width: 288px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .cover__overlay {
-    min-height: 200px;
   }
 }

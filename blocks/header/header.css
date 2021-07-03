@@ -1,52 +1,15 @@
+@import url(./__nav-bar/header__nav-bar.css);
+@import url(./__logo/header__logo.css);
+@import url(./__logo-img/header__logo-img.css);
+@import url(./__lang-link/header__lang-link.css);
+@import url(./__list/header__list.css);
+@import url(./__list-item/header__list-item.css);
+@import url(./__list-item_active/header__list-item_active.css);
+
 .header {
   max-width: 984px;
   margin: 0 148px 58px;
   padding-top: 34px;
-}
-
-.header__nav-bar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.header__logo {
-  max-width: 190px;
-}
-
-.header__logo-img {
-  width: 100%;
-  height: 100%;
-}
-
-.header__list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: row;
-}
-
-.header__list-item {
-  margin-left: 18px;
-}
-
-.header__lang-link {
-  margin: 0;
-  text-decoration: none;
-  color: #FFFFFF;
-  font-size: 24px;
-  line-height: 1.17;
-  font-weight: 400;
-  text-align: right;
-}
-
-.header__lang-link:hover {
-  opacity: 0.8;
-}
-
-.header__list-item_active {
-  border-bottom: 2px solid #FFFFFF;
 }
 
 @media screen and (max-width: 1024px) {
@@ -65,10 +28,5 @@
   .header {
     margin: 0 16px 50px;
     padding-top: 20px;
-  }
-
-  .header__lang-link {
-    font-size: 18px;
-    line-height: 1.11;
   }
 }

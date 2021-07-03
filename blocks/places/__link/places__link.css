@@ -1,0 +1,20 @@
+.places__link {
+  margin: 0;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.22;
+  vertical-align: top;
+  text-decoration: none;
+  border-bottom: 1px solid #FFFFFF;
+}
+
+.places__link:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 425px) {
+  .places__link {
+    margin: 0 16px;
+  }
+}
