@@ -6,6 +6,7 @@
 * Intro
 * Figma
 * Images
+* Notes
 
 **Intro**
 
