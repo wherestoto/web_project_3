@@ -1,6 +1,6 @@
-# Project 3: From Portland to Portland
+# From Portland to Portland
 
-* [Link to GitHub Pages](https://wherestoto.github.io/web_project_3/)
+* [Link to Project on GitHub Pages](https://wherestoto.github.io/web_project_3/)
 
 ### Overview
 * Intro
@@ -9,7 +9,7 @@
 
 **Intro**
 
-This is a project about traveling across the US. We've made it so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.
+This is a project about traveling across the US guided by Practicum. Elements were made so they are displayed correctly on popular screen sizes.
 
 **Figma**
 
@@ -17,6 +17,12 @@ This is a project about traveling across the US. We've made it so all the elemen
 
 **Images**
 
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
+* Import images from Figma and optimize them [here](https://tinypng.com/), so the project loads faster. 
 
-Good luck and have fun!
+**Notes**
+
+* Started by building the highest resolution in the brief. 
+* Compared flexbox and grid to see which was best for organizing elements.
+* Added media queries so elements were optimized for smaller display sizes.
+* Added additional media queries between breakpoints for smoother scaling.
+* Published through GitHub Pages and added ```.nojekyll``` to root.
