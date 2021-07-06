@@ -6,6 +6,7 @@
   align-items: center;
   flex-direction: column;
   text-decoration: none;
+  transition: background-color .5s ease-out .3s;
 }
 
 .cover__overlay:hover {
