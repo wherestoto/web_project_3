@@ -1,4 +1,5 @@
-# From Portland to Portland
+# From Portland to Portland - A Practicum Project
+By Yury Choe
 
 * [Link to Project on GitHub Pages](https://wherestoto.github.io/web_project_3/)
 
@@ -11,11 +12,11 @@
 
 **Intro**
 
-This is a project about traveling across the US guided by Practicum. Elements were made so they are displayed correctly on popular screen sizes.
+This is a project about traveling across the US guided by Practicum who provided the design brief via Figma. Elements were made so they are displayed correctly on popular screen sizes.
 
 **Figma**
 
-* [Link to the project on Figma](https://www.figma.com/file/AtbNbstbxWPcMqvF061V0R/Sprint-3%3A-From-Portland-to-Portland-%7C-desktop-%2B-mobile?node-id=0%3A1)
+* [Link to the project on Figma by Practicum](https://www.figma.com/file/AtbNbstbxWPcMqvF061V0R/Sprint-3%3A-From-Portland-to-Portland-%7C-desktop-%2B-mobile?node-id=0%3A1)
 
 **Images**
 
